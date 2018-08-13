@@ -1,0 +1,276 @@
+/**************************************************************************************************************************************************/
+/* Below is the styling for the models that are displayed three wide.*/
+/**************************************************************************************************************************************************/
+/*Here is the styling for the text shown under the models as well as how the models are displayed in flex containers. */
+.ThreebyTwoModels{
+  font-family: Roboto;
+  font-size: 18px;
+  text-align: center;
+  color: #46ab4d;
+  margin-bottom: 30px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*This ensures the models are displayed three wide and that they are spaced evenly throughout the page*/
+.ThreebyTwoModels div {
+  margin-left: 6.25%;
+  width: 25%;
+}
+
+/*This is the styling for the model and the model name images */
+.ThreebyTwoModels img{
+  margin: 0 auto;
+  display: block;
+  max-width: 300px;
+}
+
+
+/**************************************************************************************************************************************************/
+/* Below is the styling for the models that are displayed two wide.*/
+/**************************************************************************************************************************************************/
+/*Here is the styling for the text shown under the models as well as how the models are displayed in flex containers. */
+.TwobyTwoModels{
+  font-family: Roboto;
+  font-size: 18px;
+  text-align: center;
+  color: #46ab4d;
+  height: 150px;
+  margin-bottom: 30px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*This ensures the models are displayed two wide and that they are spaced evenly throughout the page*/
+.TwobyTwoModels div {
+  margin-left: 16.66%;
+  width: 25%;
+}
+
+/*This is the styling for the model and the model name images */
+.TwobyTwoModels img{
+  margin: 0 auto;
+  display: block;
+  max-width: 300px;
+}
+
+
+/**************************************************************************************************************************************************/
+/* Below is the styling for the pictures at the bottom of the page which direct the user to the home page and the dealer locator*/
+/**************************************************************************************************************************************************/
+/*This is the positioning for how the photos at the bottom of the page are displayed as well as the text below them.*/
+.DirectionalPhotos{
+  font-family: Roboto;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 30px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*This styling ensures the photos are displayed two per line and space evenly.*/
+.DirectionalPhotos div {
+  width: 40%;
+  margin-left:6.6%;
+  margin-bottom: 80px;
+}
+
+/*This is the actual styling of the photos */
+.DirectionalPhotos img{
+  margin: 0 auto;
+  display: block;
+  max-width: 500px;
+}
+
+/*Here is the styling for the text */
+.DirectionalPhotos a{
+  font-weight: 500;
+  font-size: 22px;
+  color: #46ab4d;
+
+}
+
+/*This is just some simply responsive code for when a user hovers over the text */
+.DirectionalPhotos a:hover{
+  background-color:#46ab4d;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;;
+}
+
+
+
+/**************************************************************************************************************************************************/
+/* Below is the styling for the footer at the bottom of the entire page */
+/**************************************************************************************************************************************************/
+.footer {
+  color: white;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 40px;
+  font-family: Roboto;
+  background-color: #46ab4d;
+  text-align: center;
+}
+
+
+
+/**************************************************************************************************************************************************/
+/* Below is the styling changes that happen to make the images and text display properly on different screen sizes.
+/**************************************************************************************************************************************************/
+@media screen and (max-width: 1400px) {
+  .ThreebyTwoModels{
+    font-size: 16px;
+  }
+
+  .ThreebyTwoModels img{
+    max-width: 250px;
+  }
+  .TwobyTwoModels{
+    font-size: 16px;
+  }
+
+  .TwobyTwoModels img{
+    max-width: 250px;
+  }
+
+  .DirectionalPhotos img{
+    max-width: 400px;
+  }
+
+  .DirectionalPhotos a{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .ThreebyTwoModels{
+    font-size: 14px;
+  }
+
+  .ThreebyTwoModels img{
+    max-width: 200px;
+  }
+  .TwobyTwoModels{
+    font-size: 14px;
+  }
+
+  .TwobyTwoModels img{
+    max-width: 200px;
+  }
+
+  .DirectionalPhotos img{
+    max-width: 300px;
+  }
+
+  .DirectionalPhotos a{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .ModelInfo p{
+    text-align: center;
+    max-width: 300px;
+  }
+  .ThreebyTwoModels{
+    font-size: 12px;
+  }
+
+  .ThreebyTwoModels img{
+    max-width: 150px;
+  }
+  .TwobyTwoModels{
+    font-size: 12px;
+  }
+
+  .TwobyTwoModels img{
+    max-width: 150px;
+  }
+
+  .DirectionalPhotos img{
+    max-width: 250px;
+  }
+
+  .DirectionalPhotos a{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ModelInfo p{
+    margin: 0 auto;
+    max-width: 300px;
+  }
+  .ThreebyTwoModels div {
+    margin-left: 0;
+    width: 100%;
+  }
+  .ThreebyTwoModels {
+    font-size: 14px;
+  }
+
+  .ThreebyTwoModels  img{
+    max-width: 250px;
+  }
+
+
+  .TwobyTwoModels div {
+    margin-left: 0;
+    width: 100%;
+  }
+  .TwobyTwoModels{
+    font-size: 14px;
+  }
+
+  .TwobyTwoModels img{
+    max-width: 250px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .ModelInfo p{
+    margin: 0 auto;
+    max-width: 250px;
+  }
+  .TopPhoto{
+    margin-bottom: -50px;
+  }
+
+  .ThreebyTwoModels {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .ThreebyTwoModels  img{
+    max-width: 175px;
+  }
+
+  .TwobyTwoModels{
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .TwobyTwoModels img{
+    max-width: 175px;
+  }
+
+  .DirectionalPhotos img{
+    max-width: 200px;
+  }
+  .DirectionalPhotos div{
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .footer{
+    font-size: 12px;
+  }
+
+}
