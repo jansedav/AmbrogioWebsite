@@ -117,7 +117,9 @@
   text-align: center;
 }
 
-
+.ModelInfo img{
+  margin-bottom: 15px;
+}
 
 /**************************************************************************************************************************************************/
 /* Below is the styling changes that happen to make the images and text display properly on different screen sizes.
