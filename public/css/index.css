@@ -66,7 +66,21 @@ html, body{
   margin-bottom: 100px;
 }
 
-
+/**************************************************************************************************************************************************/
+/* Below is the styling for Ambrogio image and text */
+/**************************************************************************************************************************************************/
+.AmbrogioLogo{
+  font-family: Roboto;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.AmbrogioLogo img{
+  width: 400px;
+}
 /**************************************************************************************************************************************************/
 /*Below is the styling for the information snippets in the middle of the page about the mower*/
 /**************************************************************************************************************************************************/
@@ -117,10 +131,20 @@ html, body{
 .Information{
   width: 400px;
 }
+
+
+.NavBar .icon{
+  display: none;
+}
 /**************************************************************************************************************************************************/
 /* Below is the styling changes that happen to the pohoto at the top of the screen as well as the navbard when the screen size changes.*/
 /**************************************************************************************************************************************************/
 @media screen and (max-width: 1400px) {
+  .logo img{
+    margin-right: 55px;
+    width: 325px;
+    height: 65px;
+  }
   .Information{
     width: 350px;
   }
@@ -140,6 +164,16 @@ html, body{
 }
 
 @media screen and (max-width: 1200px) {
+  .logo img{
+    margin-right: 50px;
+    width: 300px;
+    height: 60px;
+  }
+  .NavContainer a {
+    padding: 32px;
+    font-size: 18px;
+  }
+
   .TopPhoto img{
     height: 400px;
   }
@@ -154,18 +188,20 @@ html, body{
   .ProductInfo p{
     font-size: 12px;
   }
+
 }
 
 @media screen and (max-width: 991px) {
-  .NavContainer a {
-    padding: 32px;
-    font-size: 18px;
-  }
   .logo img{
-    margin-right: 50px;
-    width: 300px;
-    height: 60px;
+    margin-right: 45px;
+    width: 225px;
+    height: 55px;
   }
+  .NavContainer a {
+    padding: 31px;
+    font-size: 17px;
+  }
+
   .TopPhoto img{
     height: 350px;
   }
@@ -177,58 +213,43 @@ html, body{
   .Information{
     width: 300px;
   }
+  .AmbrogioLogo{
+    font-size: 14px;
+  }
+  .AmbrogioLogo img{
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 830px) {
-  .NavContainer a {
-    padding: 30px;
-    font-size: 17px;
-  }
   .logo img{
-    margin-right: 45px;
-    width: 275px;
-    height: 55px;
+    margin-right: 40px;
+    width: 200px;
+    height: 50px;
+  }
+  .NavContainer a {
+    padding: 29px;
+    font-size: 16px;
   }
   .TopPhoto img{
     height: 300px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .NavContainer a {
-    padding: 23px;
-    font-size: 15px;
-  }
-  .logo img{
-    margin-right: 40px;
-    width: 200px;
-    height: 40px;
-  }
-  .TopPhoto img{
-    height: 250px;
-  }
-}
-.NavBar .icon {
-  display: none;
-}
-}
+
 
 @media screen and (max-width: 700px) {
-  .NavContainer a {
-    padding: 29px;
-    font-size: 15px;
+  .AmbrogioLogo{
+    margin-bottom: 30px;
+    font-size: 13px;
   }
-  .logo img{
-    margin-right: 25px;
-    width: 150px;
-    height: 30px;
+  .AmbrogioLogo img{
+    width: 200px;
   }
-}
-.NavBar .icon {
-  display: none;
+
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .Information{
     width: 250px;
   }
@@ -261,7 +282,7 @@ html, body{
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .NavBar.responsive {
     padding: 0;
     margin-top: 0;
