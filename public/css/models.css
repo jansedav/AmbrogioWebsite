@@ -23,6 +23,7 @@
 .ThreebyTwoModels img{
   margin: 0 auto;
   display: block;
+  max-height: 208px;
   max-width: 300px;
 }
 
@@ -129,6 +130,7 @@
   }
 
   .ThreebyTwoModels img{
+    max-height: 172px;
     max-width: 250px;
   }
   .TwobyTwoModels{
@@ -154,6 +156,7 @@
   }
 
   .ThreebyTwoModels img{
+    max-height: 138px;
     max-width: 200px;
   }
   .TwobyTwoModels{
@@ -183,6 +186,7 @@
   }
 
   .ThreebyTwoModels img{
+    max-height: 104px;
     max-width: 150px;
   }
   .TwobyTwoModels{
@@ -216,6 +220,7 @@
   }
 
   .ThreebyTwoModels  img{
+    max-height: 172px;
     max-width: 250px;
   }
 
@@ -250,6 +255,7 @@
   }
 
   .ThreebyTwoModels  img{
+    max-height: 121px;
     max-width: 175px;
   }
 
