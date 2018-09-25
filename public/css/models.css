@@ -62,6 +62,7 @@
 /**************************************************************************************************************************************************/
 /*This is the positioning for how the photos at the bottom of the page are displayed as well as the text below them.*/
 .DirectionalPhotos{
+  margin-top: 15px;
   font-family: Roboto;
   text-align: center;
   height: 150px;
