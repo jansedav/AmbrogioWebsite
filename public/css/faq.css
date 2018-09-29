@@ -1,0 +1,21 @@
+.faq{
+font-family: Roboto;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+.faq p{
+  margin-left: 5%;
+}
+.faq h2 {
+  margin-top: 45px;
+}
+
+.doubleindent p{
+  margin-top: -30px;
+  margin-left: 7%;
+}
+
+.DirectionalPhotos{
+  margin-top: 100px;
+}
